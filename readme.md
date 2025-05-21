@@ -15,7 +15,7 @@ cd SOFTEX-FACEBOOK
 
 ### 2. Instalando Dependências
 
-Este projeto usa Python. Certifique-se de ter o Python instalado no seu sistema.
+Este projeto usa Python.
 
 Para instalar todas as dependências necessárias, execute:
 
@@ -25,7 +25,7 @@ pip install -r requirements.txt
 
 ### 3. Criando sua Branch
 
-Para trabalhar em uma nova funcionalidade ou correção, crie sua própria branch:
+Para trabalhar em um teste ou correção, crie sua própria branch:
 
 ```bash
 # Atualize seu repositório local com as últimas alterações
@@ -36,9 +36,8 @@ git checkout -b nome-da-sua-branch
 ```
 
 Sugestões para nomes de branches:
-- `feature/nome-da-funcionalidade` - Para novas funcionalidades
-- `fix/nome-do-problema` - Para correções de bugs
-- `test/nome-do-teste` - Para novos testes
+- `Task_JIRA_DATA__NOME_AUTOMACAO_TC` - Para cada teste
+- Exemplo: `TASK-123_20052025_DAVID_AUTOMACAO_TC`
 
 ### 4. Salvando e Enviando suas Alterações
 
